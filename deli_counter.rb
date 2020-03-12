@@ -7,4 +7,6 @@ def line(array)
   else
    array.lenght >= 1
    line = "The line is currently: "
+  array.each.with do |i, person|
+    
    

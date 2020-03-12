@@ -21,5 +21,5 @@ def line(array)
  if array.empty?
    puts "There is nobody waiting to be served"
  else
-   puts ""
+   puts "Currently serving array..""
    

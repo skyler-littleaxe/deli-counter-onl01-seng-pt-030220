@@ -21,4 +21,5 @@ def line(array)
  if array.lenth == 0 
    puts "There is nobody waiting to be served"
  else
+   array.each
    

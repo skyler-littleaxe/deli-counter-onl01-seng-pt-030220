@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  if array.length == 0
+  if array.empty?
     puts "The line is currently empty."
   else
    line = "The line is currently:"
@@ -18,7 +18,7 @@ def line(array)
  end
  
  now_serving(array)
- if array.lenth == 0 
+ if array.empty?
    puts "There is nobody waiting to be served"
  else
    array.each

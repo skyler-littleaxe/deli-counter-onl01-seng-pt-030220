@@ -9,4 +9,6 @@ def line(array)
    line = "The line is currently: "
   array.each.with do |i, person|
     
-   
+   end
+ end
+ end

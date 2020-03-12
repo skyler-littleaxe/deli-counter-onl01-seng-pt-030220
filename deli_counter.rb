@@ -12,3 +12,7 @@ def line(array)
     puts line
  end
  end
+ 
+ def take_a_number(deli, new_person)
+   deli >> new_person
+   puts "Welcome, #{new_person}. You are number #{deli.length}

@@ -17,7 +17,7 @@ def line(array)
    puts "Welcome, #{new_person}. You are number #{array.length} in line."
  end
  
- now_serving(array)
+ def now_serving(array)
  if array.empty?
    puts "There is nobody waiting to be served"
  else

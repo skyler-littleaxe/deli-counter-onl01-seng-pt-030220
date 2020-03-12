@@ -6,4 +6,5 @@ def line(array)
     puts "The line is currently empty."
   else
    array.lenght >+ 1
-   line = ""
+   line = "The line is currently: "
+   
